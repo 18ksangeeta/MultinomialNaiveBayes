@@ -9,8 +9,6 @@ How to run the code:
 3. Main1.py file implements the MNB algorithm and gives the folders used and the accuracy as output.
 
 Assumptions
-•	Tokenized the words by using a regular expression that handles special characters and extra characters like “>>>Atoms” to “Atoms”. The following characters are excluded from such kind of words < > ? _ , ! : ; ( ) " = - $ \ /
-•	Algorithm uses Laplace smoothing
-•	Done the calculations in log scale to avoid decimal underflow.
-•	The program takes first 8 folders and does the calculations for MNB.
-•	We tested with some specific folders manually by including those folders alone in the directory.
+1. Tokenized the words by using a regular expression that handles special characters and extra characters like “>>>Atoms” to “Atoms”. The following characters are excluded from such kind of words < > ? _ , ! : ; ( ) " = - $ \ /
+2. Algorithm uses Laplace smoothing
+3. Done the calculations in log scale to avoid decimal underflow.
